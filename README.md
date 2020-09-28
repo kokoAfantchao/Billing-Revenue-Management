@@ -14,18 +14,35 @@ Matthew Kehoe : Developer
 
 Product Visions: 
 
-         We need to revise the following paragraph, i just copy this from PPT
-         
-         Practice EHR creates ICD-10 ready superbill from patient charts. The claims can be auto- submitted from the fully integrated practice management for in-house billing or you can also 3rd party billing company.
-         Quick and easy ICD-10 lookup.
-         Most commonly used procedures and diagnosis codes are readily available.
-         With a click of a button the encounter is ready for the biller. Check insurance eligibility directly from your EHR.
+•Create a User Interface for the Billing/Revenue Management Application
+
+•Collect the insurance information from the front desk via EHR
+
+•Verify that the insurance is active
+
+•We collect the summary note from the provider( detailed information about the care of the patient)
+
+•Create a microservice to quickly lookup the CPT/ICD-10 codes(These are the codes associated with the different diagnosis and procedures)
+
+•Bill the insurance company according to the summary note, based on each CPT codes( Codes that are related to the treatment/care of the patient)
+
+•Followup with the insurance to make sure the bill was paid
+
+•Expose a URI to provide access to the front desk team, to retrieve patient account information
 
 
+A near vision for the first iteration of the product: 
 
-1. A near vision for the first iteration of the product: 
+•Create a User Interface to retrieve the patient information typically the Insurance details (Full Name, Insurance Company, Policy Number, Date Of Birth and Address
 
-2. Stakeholder types: 
+•Verify the Insurance details
+
+Stakeholder types: 
+  •Insurance Company
+  •Patients
+  •Hospitals
+  •Product Manager/Owner
+  •Professor
 
 3. A detailed user persona for your real stakeholder: 
 
