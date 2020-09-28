@@ -12,7 +12,7 @@ Ming Wu :  Team Lead
 
 Matthew Kehoe : Developer 
 
-Product Visions: 
+# Product Visions: 
 
 •Create a User Interface for the Billing/Revenue Management Application
 
@@ -31,22 +31,32 @@ Product Visions:
 •Expose a URI to provide access to the front desk team, to retrieve patient account information
 
 
-A near vision for the first iteration of the product: 
+# A near vision for the first iteration of the product: 
 
 •Create a User Interface to retrieve the patient information typically the Insurance details (Full Name, Insurance Company, Policy Number, Date Of Birth and Address
 
 •Verify the Insurance details
 
-Stakeholder types: 
+# Stakeholder types: 
   •Insurance Company
   •Patients
   •Hospitals
   •Product Manager/Owner
   •Professor
 
-3. A detailed user persona for your real stakeholder: 
+# A detailed user persona for your real stakeholder: 
 
-4. The URL of the initial product backlog:
+  Who Are They :
+  
+  
+  What is Their Main Goal:
+  
+  
+  What is Their Main Barrier of Achieving This Goal:
+  
+  
+
+# The URL of the initial product backlog:
    At least 10 product backlog items in your product backlog
    All product backlog items are expressed as excellent user stories.
    Your product backlog is ordered. Your rationale for how you ordered your backlog is clearly documented in your git repo's README.
