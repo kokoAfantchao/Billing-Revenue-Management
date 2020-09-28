@@ -14,6 +14,12 @@ Matthew Kehoe : Developer
 
 Product Visions: 
 
+Practice EHR creates ICD-10 ready superbill from patient charts. The claims can be auto- submitted from the fully integrated practice management for in-house billing or you can also 3rd party billing company.
+Quick and easy ICD-10 lookup.
+Most commonly used procedures and diagnosis codes are readily available.
+With a click of a button the encounter is ready for the biller. Check insurance eligibility directly from your EHR.
+
+
 
 1. A near vision for the first iteration of the product: 
 
