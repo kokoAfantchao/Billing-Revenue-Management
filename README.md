@@ -45,29 +45,20 @@ Matthew Kehoe : Developer
   •Professor
 
 # A detailed user persona for your real stakeholder: 
-  Who Are They : 
+
+  Who Are They :
   
-                Name : Linda
-                Age : 35 years
-                Occupation : Elementary School Teacher
-                Location : Harrssion, NJ
-                Education : B.A. in Education
-                Status : Married, children (2 kids, boy: 7 years, girl: 4 years)
-                HH Income : $ 80,000/yr
-                
-  Profile Summary: 
   
-  Diagnosed with type 2 diabetes two years ago. Managing the condition with oral medications but her A1-C is not under control. Doesn't have time for exercise with work and family commitments. Struggle eating healthy because her husband does not like diet food and she doesn't have time to prepare separate meals. She also has high blood pressure that is pretty stable on two medications. Both conditions run in her family.
+  What is Their Main Goal:
   
-  Personality : condident, empowered, determined
   
-  Interests/behaviors: Spending time with her kids and husband in most important. 
+  What is Their Main Barrier of Achieving This Goal:
   
+  
+
 # The URL of the initial product backlog:
-   At least 10 product backlog items in your product backlog
-   All product backlog items are expressed as excellent user stories.
-   Your product backlog is ordered. Your rationale for how you ordered your backlog is clearly documented in your git repo's README.
-You have a Definition of Ready for product backlog items. 
+    https://www.pivotaltracker.com/n/projects/2464478
+    
 
 # Your Definition of Ready includes at least these items: a) Title, b) User story opening sentence, c) Additional details, d) Estimated in story points. Your Definition of Ready is clearly documented in your git repo's README.
 
@@ -80,9 +71,7 @@ You have a Definition of Ready for product backlog items.
  (b)Create The First Part of the UI to Collect the Patient Information and insurance details from the Front Desk
  (c)Collect the patient Demographics 
  (d)3 Points
+ 
 
-Estimate your PBIs, starting at the top of the backlog and working your way down to the bottom. Your backlog with estimated PBIs is stored in Pivotal Tracker. The URL of your backlog is clearly documented in your git repo's README. Course staff members can view your backlog.
-
-You estimated your PBIs in story points.
 
 You did a whole team relative size estimating activity. You documented the name of the activity in your README.
