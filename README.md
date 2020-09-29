@@ -45,17 +45,24 @@ Matthew Kehoe : Developer
   •Professor
 
 # A detailed user persona for your real stakeholder: 
-
-  Who Are They :
+  Who Are They : 
   
+                Name : Linda
+                Age : 35 years
+                Occupation : Elementary School Teacher
+                Location : Harrssion, NJ
+                Education : B.A. in Education
+                Status : Married, children (2 kids, boy: 7 years, girl: 4 years)
+                HH Income : $ 80,000/yr
+                
+  Profile Summary: 
   
-  What is Their Main Goal:
+  Diagnosed with type 2 diabetes two years ago. Managing the condition with oral medications but her A1-C is not under control. Doesn't have time for exercise with work and family commitments. Struggle eating healthy because her husband does not like diet food and she doesn't have time to prepare separate meals. She also has high blood pressure that is pretty stable on two medications. Both conditions run in her family.
   
+  Personality : condident, empowered, determined
   
-  What is Their Main Barrier of Achieving This Goal:
+  Interests/behaviors: Spending time with her kids and husband in most important. 
   
-  
-
 # The URL of the initial product backlog:
    At least 10 product backlog items in your product backlog
    All product backlog items are expressed as excellent user stories.
