@@ -47,12 +47,13 @@ Matthew Kehoe : Developer
 # A detailed user persona for your real stakeholder: 
 
   Who Are They :
-  
+  Bob 
   
   What is Their Main Goal:
-  
+  Bob wants to check his medical bill  
   
   What is Their Main Barrier of Achieving This Goal:
+  Bob is not familiar with the use of computers, the user interface needs to be as easy as possible to use, as well as fool proof to prevent Bob from making mistakes
   
   
 
