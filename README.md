@@ -39,6 +39,7 @@ Matthew Kehoe : Developer
 
 # Stakeholder types: 
   •Insurance Company
+  •Medical Biller and Coder
   •Patients
   •Hospitals
   •Product Manager/Owner
@@ -46,20 +47,23 @@ Matthew Kehoe : Developer
 
 # A detailed user persona for your real stakeholder: 
 
-  Who Are They :
-  Bob 
+ # Patient Bob 
   
-  What is Their Main Goal:
-  Bob wants to check his medical bill  
+  Bob wants to check the bill for his hospital visit 
   
-  What is Their Main Barrier of Achieving This Goal:
-  Bob is not familiar with the use of computers, the user interface needs to be as easy as possible to use, as well as fool proof to prevent Bob from making mistakes
+  Bob is not familiar with the use of computer
   
-  Insurance Agent
+  # Insurance Agent Mary
   
-  Agent wants to verify the patients information/Bill
+  Mary wants to verify the patients information/Bill is processed correctly
   
-  Having issues verifying patients bill 
+  Mary Wants to verify the procedure rendered to the patient
+  
+  # Medical Biller Greg
+  
+  Greg wants to be able to generate correct claims for patients and send it correctly to the insurance company
+  
+  Greg will want a reliable application to accomplish his goals as acurate and fast as possible.
   
   
 
