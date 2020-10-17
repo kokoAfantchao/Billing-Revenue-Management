@@ -1,6 +1,6 @@
 # Billing-Revenue-Management
 
-This is a Group 3 repos 
+This is a Group 3 Repos  
 
 Team members and roles 
 
