@@ -10,7 +10,7 @@ koko nestor Afantchao : scrum master
 
 Ming Wu :  Team Lead 
 
-Matthew Kehoe : Developer 
+Matthew Kehoe :Developer 
 
 # Product Visions: 
 
