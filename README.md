@@ -6,7 +6,7 @@ Team members and roles
 
 Obasuyi Edokpolor : Project manager 
 
-koko nestor Afantchao : scrum master 
+koko Nestor Afantchao : scrum master 
 
 Ming Wu :  Team Lead 
 
