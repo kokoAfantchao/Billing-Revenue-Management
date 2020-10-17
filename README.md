@@ -12,7 +12,7 @@ Ming Wu :  Team Lead
 
 Matthew Kehoe : Developer 
 
-# Product Visions: 
+# Product Visions :  
 
 •Create a User Interface for the Billing/Revenue Management Application
 
