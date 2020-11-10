@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  mount API::Base, at: '/'
   # below the  front-end path config
   get 'patients/board'
   get 'dashboard/board'
@@ -7,5 +9,4 @@ Rails.application.routes.draw do
 
 
   ## Below  are the api route config
-  mount(API::Base, at: "/" )
 end
