@@ -1,0 +1,2 @@
+class Icd < ApplicationRecord
+end

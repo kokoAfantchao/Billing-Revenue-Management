@@ -1,11 +1,13 @@
+
 module API
   module V1
-    class CptCode < Grape:: API
+    class CptCode < Grape::API
       include API::V1::Defaults
+
       resource :cpt do
         desc 'Return  all CPT CODE'
         get '' do
-          '{ all CPT  code as json }'
+          Cpt.get_all
         end
 
         desc 'Return a CPT by Description '

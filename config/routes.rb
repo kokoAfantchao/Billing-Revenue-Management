@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   mount API::Base, at: '/'
   # below the  front-end path config
   get 'patients/board'

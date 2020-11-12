@@ -1,6 +1,6 @@
 module API
   module V1
-    class IcdCode < Grape::API
+    class  IcdCode < Grape::API
       include API::V1::Defaults
       resource :icd do
         desc 'Return  all ICD  CODE'
@@ -24,15 +24,7 @@ module API
           '{ return a  list of ICD Code  that match the descriptions }'
         end
 
-        desc 'Return a list of ICD  in Category'
-        params do
-          requires :category, type: String, desc: 'Category of the ICD '
-        end
-        get ':category' do
-          '{ return a  list of ICD Code  in category }'
-        end
       end
-
     end
   end
 end
