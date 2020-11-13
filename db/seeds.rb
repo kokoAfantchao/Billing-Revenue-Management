@@ -150,7 +150,7 @@ more_icd  = [
     # array('category_code' => 'A15','diagnosis_code' => '8','FULL_CODE' => 'A158','abbreviated_description' => 'Other respiratory tuberculosis','full_description' => 'Other respiratory tuberculosis','category_title' => 'Respiratory tuberculosis'),
     # array('category_code' => 'A15','diagnosis_code' => '9','FULL_CODE' => 'A159','abbreviated_description' => 'Respiratory tuberculosis unspecified','full_description' => 'Respiratory tuberculosis unspecified','category_title' => 'Respiratory tuberculosis'),
     # array('category_code' => 'A17','diagnosis_code' => '0','FULL_CODE' => 'A170','abbreviated_description' => 'Tuberculous meningitis','full_description' => 'Tuberculous meningitis','category_title' => 'Tuberculosis of nervous system'),
-    
+
 more_icd.each do |icd|
   Icd.create(icd)
 end

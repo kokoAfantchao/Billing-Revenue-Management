@@ -12,31 +12,4 @@
 
 ActiveRecord::Schema.define(version: 2020_11_10_233926) do
 
-  create_table "bills", force: :cascade do |t|
-    t.boolean "is_paid"
-    t.float "total_price"
-    t.datetime "date"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "cpts", force: :cascade do |t|
-    t.string "cpt_code"
-    t.string "cpt_description"
-    t.float "price"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "icds", force: :cascade do |t|
-    t.string "category_code"
-    t.string "diagnosis_code"
-    t.string "full_code"
-    t.string "abbreviated_description"
-    t.string "full_description"
-    t.string "category_title"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
 end

@@ -1,5 +1,11 @@
 class CreateBills < ActiveRecord::Migration[6.0]
   def change
+    create_table :insurances do |t|
+      t.string :member_name
+      t.string :group_number
+      t.string :insurance_name
+      t.timestamps
+    end
     create_table :bills do |t|
       t.boolean :is_paid
       t.float :total_price
@@ -21,6 +27,11 @@ class CreateBills < ActiveRecord::Migration[6.0]
       t.string :category_title
       t.timestamps
     end
+
+    add_foreign_key :bills,:insurances
+    create_join_table :cpts, :bills, column_options: { null: true }
+    create_join_table :icds, :bills, column_options: { null: true }
+
 
   end
 end
