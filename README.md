@@ -4,19 +4,13 @@
 
 ### Scrum roles
 
-1. Product owner : Professor Prabhat Vaish
+Obasuyi Edokpolor : Project manager
 
-2. Scrum Master : Ming Wu (James Wu)
+koko nestor Afantchao : scrum master
 
-3. Team : 
+Ming Wu : Team Lead
 
-        Ming Wu : Team leader
-
-        Obasuyi Edokpolor : Product manager
-
-        koko nestor Afantchao : Developer
-
-        Matthew Kehoe : Developer
+Matthew Kehoe : Developer
 
 ## Ruby version
 
