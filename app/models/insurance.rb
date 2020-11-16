@@ -1,2 +1,3 @@
 class Insurance < ApplicationRecor
+
 end

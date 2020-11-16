@@ -1,18 +1,21 @@
 class CreateBills < ActiveRecord::Migration[6.0]
   def change
-    create_table :insurances do |t|
+    create_table :insurances  do |t|
       t.string :member_name
       t.string :group_number
       t.string :insurance_name
       t.timestamps
     end
-    create_table :bills do |t|
+    create_table :bills, id: false do |t|
+      t.primary_key :bill_id
       t.boolean :is_paid
       t.float :total_price
       t.datetime :date
+      t.bigint :insurance_id
       t.timestamps
     end
-    create_table :cpts do |t|
+    create_table :cpts, id: false do |t|
+      t.primary_key :cpt_id
       t.string :cpt_code
       t.string :cpt_description
       t.float :price
