@@ -4,5 +4,7 @@ class Cpt < ApplicationRecord
   end
 
   def self.find_by_description(description)
+    puts 'hello here '
+    Cpt.where("cpt_description LIKE  '%#{description}%'")
   end
 end

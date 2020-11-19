@@ -1,10 +1,8 @@
 require 'rspec'
-require './lib/activerecord_practice.rb'
 require 'byebug'
-
 ALL_CPT = [nil] + Cpt.all.order('id')
 
-def check(actual,expected_ids)
+def check(actual, expected_ids)
   actual ||= []
   expected = ALL_CPT.values_at(*expected_ids)
   missing = expected - actual
@@ -17,7 +15,7 @@ def check(actual,expected_ids)
   end
 end
 
-describe 'ActiveRecord practice' do
+describe 'ActiveRecord CPT CODE' do
   around(:each) do |example|
     ActiveRecord::Base.transaction do
       example.run
@@ -36,10 +34,9 @@ describe 'ActiveRecord practice' do
       check Cpt.get_all, [24]
     end
 
-    specify ' find cpt code by description' do
-      check Cpt.find_by_description('Cervicography') ,1
+    specify 'find cpt code by description' do
+      check Cpt.find_by_description('Cervicography'),1
     end
-
   end
 
 end

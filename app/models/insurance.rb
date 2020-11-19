@@ -1,3 +1,3 @@
-class Insurance < ApplicationRecor
+class Insurance < ApplicationRecord
 
 end

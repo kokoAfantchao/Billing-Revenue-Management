@@ -1,4 +1,3 @@
-
 module API
   module V1
     module Defaults
@@ -7,8 +6,9 @@ module API
         prefix "api"
         version "v1", using: :path
         default_format :json
+        content_type :json, 'application/json'
         format :json
-        ##formatter : json,Grape::Formatter::ActiveModelSerializers
+        # formatter :json,Grape::Formatter::ActiveModelSerializers
         helpers do
           def permitted_params
             @permitted_params ||= declared(params, include_missing: false)

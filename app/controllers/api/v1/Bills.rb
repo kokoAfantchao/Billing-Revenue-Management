@@ -12,7 +12,7 @@ module API
           requires :id, type: String, desc: 'ID of the the patient'
         end
         get ':id' do
-          "{return a specific  bill by patient #id }"
+          "{ return a specific  bill by patient #id  }"
         end
       end
     end
