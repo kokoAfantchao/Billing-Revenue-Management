@@ -2,10 +2,9 @@ module API
   module V1
     class CptCode < Grape::API
       include API::V1::Defaults
-
-      resource :cpt do
+      resource :cpts do
         desc 'Return  all CPT CODE'
-        get ':all' do
+        get '' do
           Cpt.get_all
         end
         desc 'Return a list of CPT  that match description  Description '

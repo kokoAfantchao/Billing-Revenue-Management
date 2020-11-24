@@ -2,7 +2,8 @@ module API
   module V1
     class IcdCode < Grape::API
       include API::V1::Defaults
-      resource :icd do
+
+      resource :icds do
         desc 'Return  all ICD CODE '
         get '' do
           Icd.all
