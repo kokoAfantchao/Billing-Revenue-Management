@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   mount API::Base, at: '/'
+  mount GrapeSwaggerRails::Engine => '/api/doc'
   # below the  front-end path config
   get 'patients/board'
   get 'dashboard', to: 'dashboard#board'

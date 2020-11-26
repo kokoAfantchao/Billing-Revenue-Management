@@ -29,6 +29,7 @@ gem 'bulma-rails', '~> 0.8.0'
 ## api config
 gem 'grape', '~> 1.5'
 gem 'grape-swagger'
+gem 'grape-swagger-rails'
 # gem 'grape-active_model_serializers'
 # gem 'rack-cors'
 
