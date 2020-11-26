@@ -28,6 +28,7 @@ gem 'bulma-rails', '~> 0.8.0'
 
 ## api config
 gem 'grape', '~> 1.5'
+gem 'grape-swagger'
 # gem 'grape-active_model_serializers'
 # gem 'rack-cors'
 
@@ -57,6 +58,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'guard-rspec'
+
   gem 'rspec-rails'
   gem 'webdrivers'
 end
