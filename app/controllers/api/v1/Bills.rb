@@ -10,13 +10,9 @@ module API
         desc 'Return a bill by patient Id '
         params do
           requires :patient_id, type: String, desc: 'unique indentifier of  patient in the system'
-          
         end
         get '/patient ' do
           "{ return a specific  bill by patient #id  }"
-        end
-
-        desc ''
         end
 
         desc 'send list of idc'
@@ -27,7 +23,6 @@ module API
           requires :insurance_id, type: String, desc: 'Patient insurance id to check the isurrance validity '
         end
         post '/enconter'do
-
         end
 
       end
