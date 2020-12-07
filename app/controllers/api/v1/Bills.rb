@@ -10,11 +10,12 @@ module API
         desc 'Return a bill by patient Id '
         params do
           requires :patient_id, type: String, desc: 'unique indentifier of  patient in the system'
+          optional :date, type: Date, desc: 'Use date if you want bills between now and any Date'
         end
         get '/patient ' do
           "{ return a specific  bill by patient #id  }"
         end
-
+        
         desc 'send list of idc'
         params do
           requires :patient_id, type: String, desc: 'unique indentifier of the patient in the system '
