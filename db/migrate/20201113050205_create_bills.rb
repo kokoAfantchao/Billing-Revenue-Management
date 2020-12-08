@@ -1,6 +1,6 @@
 class CreateBills < ActiveRecord::Migration[6.0]
   def change
-    create_table :insurances  do |t|
+    create_table :insurances do |t|
       t.string :member_name
       t.string :group_number
       t.string :insurance_name
