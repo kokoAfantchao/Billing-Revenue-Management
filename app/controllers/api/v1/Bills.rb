@@ -27,6 +27,14 @@ module API
           Bill.new_encontent(params[:patient_id],params[:cpt_code],params[:icd_code],params[:insurance_id])
         end
 
+        desc 'Generate bills'
+        params do
+          requires :bill_id, type: String, desc: 'id of the bill to generate the totale'
+        end
+        post '/generate' do
+          Bill.generate_bill params[:bill_id]
+        end
+
       end
     end
   end

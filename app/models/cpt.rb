@@ -10,4 +10,8 @@ class Cpt < ApplicationRecord
     Cpt.where("cpt_code LIKE  '%#{code}%'")
   end
 
+  def self.get_price(code)
+    Cpt.find_by(cpt_code: code).price
+  end
+
 end
