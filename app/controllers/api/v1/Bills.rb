@@ -13,9 +13,9 @@ module API
           optional :date, type: Date, desc: 'Use date if you want bills between now and any Date'
         end
         get '/patient ' do
-          "{ return a specific  bill by patient #id  }"
+          "{}"
         end
-        
+
         desc 'send list of idc'
         params do
           requires :patient_id, type: String, desc: 'unique indentifier of the patient in the system '
