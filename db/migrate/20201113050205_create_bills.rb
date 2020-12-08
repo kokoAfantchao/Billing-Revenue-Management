@@ -12,6 +12,8 @@ class CreateBills < ActiveRecord::Migration[6.0]
       t.float :total_price
       t.datetime :date
       t.bigint :insurance_id
+      t.string :cpt_codes
+      t.string :icd_codes
       t.timestamps
     end
     create_table :cpts, id: false do |t|
@@ -21,6 +23,7 @@ class CreateBills < ActiveRecord::Migration[6.0]
       t.float :price
       t.timestamps
     end
+
     create_table :icds do |t|
       t.string :category_code
       t.string :diagnosis_code
@@ -31,10 +34,8 @@ class CreateBills < ActiveRecord::Migration[6.0]
       t.timestamps
     end
 
-    add_foreign_key :bills,:insurances
-    create_join_table :cpts, :bills, column_options: { null: true }
-    create_join_table :icds, :bills, column_options: { null: true }
-
-
+    # add_foreign_key :bills,:insurances
+    # create_join_table :cpts, :bills, column_options: { null: true }
+    # create_join_table :icds, :bills, column_options: { null: true }
   end
 end

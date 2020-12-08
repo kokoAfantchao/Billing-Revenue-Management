@@ -16,19 +16,11 @@ ActiveRecord::Schema.define(version: 2020_11_13_050205) do
     t.boolean "is_paid"
     t.float "total_price"
     t.datetime "date"
-    t.integer "insurance_id"
+    t.bigint "insurance_id"
+    t.string "cpt_codes"
+    t.string "icd_codes"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "bills_cpts", id: false, force: :cascade do |t|
-    t.integer "cpt_id"
-    t.integer "bill_id"
-  end
-
-  create_table "bills_icds", id: false, force: :cascade do |t|
-    t.integer "icd_id"
-    t.integer "bill_id"
   end
 
   create_table "cpts", primary_key: "cpt_id", force: :cascade do |t|
@@ -58,5 +50,4 @@ ActiveRecord::Schema.define(version: 2020_11_13_050205) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "bills", "insurances"
 end
