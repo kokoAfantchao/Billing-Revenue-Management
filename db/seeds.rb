@@ -9,52 +9,52 @@
 #
 #
 ## get some cpt data
+more_cpt = [
+    {:cpt_code => '0003T', :cpt_description => 'Cervicography', :price => 100},
+    {:cpt_code => '0008T', :cpt_description => 'Upper gi endoscopy w/suture', :price => 100},
+    {:cpt_code => '0010T', :cpt_description => 'Tb test, gamma interferon', :price => 500},
+    {:cpt_code => '0016T', :cpt_description => 'Thermotx choroid vasc lesion', :price => 200},
+    {:cpt_code => '0017T', :cpt_description => 'Photocoagulat macular drusen', :price => 100},
+    {:cpt_code => '0018T', :cpt_description =>	'Transcranial magnetic stimul', :price =>500},
+    {:cpt_code => '0019T', :cpt_description => 'Extracorp shock wave tx, ms', :price => 600},
+    {:cpt_code => '0020T', :cpt_description => 'Extracorp shock wave tx, ft', :price =>300},
+    {:cpt_code => '0021T', :cpt_description => 'Fetal oximetry, trnsvag/cerv', :price =>100},
+    {:cpt_code => '0023T', :cpt_description => 'Phenotype drug test, hiv 1', :price =>700},
+    {:cpt_code => '0024T', :cpt_description => 'Transcath cardiac reduction', :price =>100},
+    {:cpt_code => '0026T', :cpt_description => 'Measure remnant lipoproteins', :price =>100},
+    {:cpt_code => '0027T', :cpt_description => 'Endoscopic epidural lysis', :price =>100},
+    {:cpt_code => '0028T', :cpt_description => 'Dexa body composition study', :price =>400},
+    {:cpt_code => '0029T', :cpt_description => 'Magnetic tx for incontinence', :price =>530},
+    {:cpt_code => '0030T', :cpt_description => 'Antiprothrombin antibody', :price =>5600},
+    {:cpt_code => '0031T', :cpt_description => 'Speculoscopy', :price =>900},
+    {:cpt_code => '0032T', :cpt_description => 'Speculoscopy w/direct sample', :price =>430},
+    {:cpt_code => '0033T', :cpt_description => 'Endovasc taa repr incl subcl', :price =>100},
+    {:cpt_code => '0034T', :cpt_description => 'Endovasc taa repr w/o subcl', :price =>500},
+    {:cpt_code => '0035T', :cpt_description => 'Insert endovasc prosth, taa', :price =>6700},
+    {:cpt_code => '0036T', :cpt_description => 'Endovasc prosth, taa, add-on', :price =>5600},
+    {:cpt_code => '0037T', :cpt_description => 'Artery transpose/endovas taa', :price =>100},
+    {:cpt_code => '0038T', :cpt_description => 'Rad endovasc taa rpr w/cover', :price =>900},
+    {:cpt_code => '0039T', :cpt_description => 'Rad s/i, endovasc taa repair', :price =>100},
+    {:cpt_code => '0040T', :cpt_description => 'Rad s/i, endovasc taa prosth', :price =>500},
+    {:cpt_code => '0041T', :cpt_description => 'Detect ur infect agnt w/cpas', :price =>400},
+    {:cpt_code => '0042T', :cpt_description => 'Ct perfusion w/contrast, cbf', :price =>200},
+    {:cpt_code => '0043T', :cpt_description => 'Co expired gas analysis', :price =>100},
+    {:cpt_code => '0044T', :cpt_description => 'Whole body photography', :price =>100},
+    {:cpt_code => '0045T', :cpt_description => 'Whole body photography', :price =>100},
+    {:cpt_code => '0046T', :cpt_description => 'Cath lavage, mammary duct(s', :price =>100},
+    {:cpt_code => '0047T', :cpt_description => 'Cath lavage, mammary duct(s)', :price =>100},
+    {:cpt_code => '0048T', :cpt_description => 'Implant ventricular device', :price =>100},
+    {:cpt_code => '0049T', :cpt_description => 'External circulation assist', :price =>190},
+    {:cpt_code => '0050T', :cpt_description => 'Removal circulation assist', :price =>120},
+    {:cpt_code => '0051T', :cpt_description => 'Implant total heart system', :price =>100},
+    {:cpt_code => '0052T', :cpt_description => 'Replace component heart syst', :price =>350},
+    {:cpt_code => '0053T', :cpt_description => 'Replace component heart syst', :price =>670},
+    {:cpt_code => '0054T', :cpt_description => 'Bone surgery using computer', :price =>950}
+]
 
- more_cpt = [ {:cpt_code => '0003T', :cpt_description => 'Cervicography', :price => 100},
-              {:cpt_code => '0008T', :cpt_description => 'Upper gi endoscopy w/suture', :price => 100},
-              {:cpt_code => '0010T', :cpt_description => 'Tb test, gamma interferon', :price => 100},
-              {:cpt_code => '0016T', :cpt_description => 'Thermotx choroid vasc lesion', :price => 100},
-              {:cpt_code => '0017T', :cpt_description => 'Photocoagulat macular drusen', :price => 100},
-              {:cpt_code => '0018T', :cpt_description => 'Transcranial magnetic stimul', :price =>100},
-              {:cpt_code => '0019T', :cpt_description => 'Extracorp shock wave tx, ms', :price => 100},
-              {:cpt_code => '0020T', :cpt_description => 'Extracorp shock wave tx, ft', :price =>100} ]
-
-# {0021T	Fetal oximetry, trnsvag/cerv	100
-# {0023T	Phenotype drug test, hiv 1	100
-# {0024T	Transcath cardiac reduction	100
-# {0026T	Measure remnant lipoproteins	100
-# {0027T	Endoscopic epidural lysis	100
-# {0028T	Dexa body composition study	100
-# {0029T	Magnetic tx for incontinence	100
-# {0030T	Antiprothrombin antibody	100
-#  0031T	Speculoscopy	100
-#  0032T	Speculoscopy w/direct sample	100
-#  0033T	Endovasc taa repr incl subcl	100
-#  0034T	Endovasc taa repr w/o subcl	100
-#  0035T	Insert endovasc prosth, taa	100
-#  0036T	Endovasc prosth, taa, add-on	100
-#  0037T	Artery transpose/endovas taa	100
-#  0038T	Rad endovasc taa rpr w/cover	100
-#  0039T	Rad s/i, endovasc taa repair	100
-#  0040T	Rad s/i, endovasc taa prosth	100
-#  0041T	Detect ur infect agnt w/cpas	100
-#  0042T	Ct perfusion w/contrast, cbf	100
-#  0043T	Co expired gas analysis	100
-#  044T	Whole body photography	100
-#  0045T	Whole body photography	100
-#  0046T	Cath lavage, mammary duct(s	100
-#  0047T	Cath lavage, mammary duct(s)	100
-#  0048T	Implant ventricular device	100
-#  0049T	External circulation assist	100
-#  0050T	Removal circulation assist	100
-#  0051T	Implant total heart system	100
-#  0052T	Replace component heart syst	100
-#  0053T	Replace component heart syst	100
-#  0054T	Bone surgery using computer	100
-
-# more_cpt.each do |cpt|
-#   Cpt.create(cpt)
-# end
+more_cpt.each do |cpt|
+  Cpt.create(cpt)
+end
 
 
 
